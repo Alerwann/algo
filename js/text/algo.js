@@ -14,12 +14,9 @@ function carre() {
 }
 
 function somme() {
-  let nombre1 = prompt('Saisir le premier nombre');
-  let nombre2 = prompt('Saisir le deuxième nombre');
-
   while (nombre1 === null || nombre2 === null) {
-    nombre1 = parseInt(prompt('Saisir le premier nombre'));
-    nombre2 = parseInt(prompt('Saisir le deuxième nombre'));
+    let nombre1 = parseInt(prompt('Saisir le premier nombre'));
+    let nombre2 = parseInt(prompt('Saisir le deuxième nombre'));
   }
   let resultatCalcul = nombre1 + nombre2;
 
